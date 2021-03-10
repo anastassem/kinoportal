@@ -1,0 +1,187 @@
+body {
+	margin:0;
+	font-family: Arial;	
+  background: black;
+	}
+h2 {
+  font-family: monospace;
+  color: #606060;
+  
+}
+nav {
+  width: 100%;
+  margin: auto;
+  padding: auto;
+}
+ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.topmenu > li {
+  display: inline-block;
+  margin-right: auto;
+  position: relative;
+  width: 10%;	
+  padding: auto;
+  text-align: center;
+}
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+.divBox{
+  box-shadow: inset 0 0 10px;
+  background: white;
+	width: 85%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.pull-right{
+	padding:20px;
+	float: right;
+}
+a {
+  color: #ff8200;
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  outline: none;
+  transition: .5s linear;
+}
+.fa {
+  font-family: "FontAwesome";
+  color: inherit;
+  padding-left: 10px;
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: auto;
+  z-index: 10;
+  transition: 0.5s ease-in-out;
+  text-align: center;
+  box-shadow: inset 0 0 6px;
+}
+.one ul {
+  background: #ff8200;
+}
+.one ul a {
+  color: white;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.one ul a:hover {
+  color: gold;
+  transition: 0.3s;
+  text-decoration: underline;
+}
+.one .submenu {
+  display: none;
+  background: #ff8200;
+}
+.one ul li:hover .submenu {
+  display: block;
+}
+.logo{
+	width: auto;
+	color: white;
+	font-size: 1.2em;
+        margin-left: 15%;
+}
+
+.submenuunit{
+    height: auto;
+    width: 100%;
+}
+
+section{
+    padding: 2%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.search{
+    margin-left: 250px;
+    padding: 0;
+    display: flex;
+    flex-flow: row;
+    width: auto;
+}
+
+.searchbar{
+    height: 25px;
+    margin-bottom: 3px;
+    width: 300px;
+    border-radius: 4px;
+    padding: 2px;
+    border: 0;
+}
+
+table{
+    box-shadow: inset 0 0 6px;
+    display: flex;
+    width: auto;
+    padding: 0;
+	 font-size: 1.2rem;
+}
+
+td{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+tr{
+    padding: 0;
+}
+
+th{
+    padding: 20px;
+    margin: 0;
+}
+
+.btn{
+   background-color: #ff8200;
+   border-radius: 3px;
+   margin-left: 10px;
+   height: 40px;
+   border: 0;
+   color: white;
+   font-weight: 600;
+}
+
+p{
+    word-wrap: break-word;
+    display: flex;
+	 font-size: 1.2rem;
+}
+
+h1{
+    width: auto;
+    display: inline-block;
+}
+
+.courselink{
+    color: black;
+    font-weight: 550;
+}
+
+.courselink:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.control{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+th{
+    text-align: center;
+}
